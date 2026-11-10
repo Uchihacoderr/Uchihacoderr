@@ -1,0 +1,12 @@
+[project]
+name = "instagram-username-discovery"
+version = "0.1.0"
+description = "Conservative generator and evidence ledger for short Instagram username research"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+username-discovery = "username_discovery.__main__:main"
+
+[tool.setuptools]
+packages = ["username_discovery"]
